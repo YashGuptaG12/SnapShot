@@ -9,7 +9,7 @@ body {
 .video-cont {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: #7c787835;
 }
 video {
     width: 100%;
@@ -67,7 +67,7 @@ video {
         transform: scale(0.8);
     }
     100% {
-        transform: scale(1.1)
+        transform: scale(1.2)
     }
 }
 @keyframes scale-capture {
@@ -75,15 +75,15 @@ video {
         transform: scale(0.8);
     }
     100% {
-        transform: scale(1.1)
+        transform: scale(1.2)
     }
 }
 
 .timer-cont {
     position: absolute;
-    bottom: 10rem;
+    bottom: 5rem;
     left: 5rem;
-    color: aqua;
+    color: #ebf1f7;
     font-size: 0.8rem;
 }
 .timer {
@@ -109,14 +109,14 @@ video {
     background-blend-mode: color-burn;
 }
 
+.brown {
+    background-color: #a52a2a48;
+}
 .orange {
     background-color: #ffa50052;
 }
-.brown {
-    background-color: #a52a2a59;
-}
 .pink {
-    background-color: #ffc0cb57;
+    background-color: #ffc0cb4a;
 }
 .transparent {
     background-color: transparent;
